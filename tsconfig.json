@@ -12,8 +12,12 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"isolatedModules": true,
-		"jsx": "react-jsx", // 변경: "react-jsx"로 설정
+		"jsx": "preserve",
 		"types": ["next", "react"],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./*"]
+		},
 		"plugins": [
 			{
 				"name": "next"

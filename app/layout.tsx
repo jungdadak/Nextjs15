@@ -1,6 +1,6 @@
-// app/layout.js 또는 pages/_app.js
 import "./globals.css";
 
+/*<head> 태그의 역할을 하는 meatadata*/
 export const metadata = {
 	title: "NextJS Course App",
 	description: "Your first NextJS app!",
