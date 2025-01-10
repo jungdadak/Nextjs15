@@ -1,0 +1,8 @@
+/* globals.css */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 필요한 경우 추가적인 글로벌 스타일을 여기에 작성할 수 있습니다. */
